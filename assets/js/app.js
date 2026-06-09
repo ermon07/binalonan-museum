@@ -12,6 +12,9 @@ viewer = pannellum.viewer('panorama', {
         pitch: 0,
         hfov: 100
     },
+    compass: false,
+    showZoomCtrl: false,
+    showFullscreenCtrl: false,
 
     scenes: scenes
 });
