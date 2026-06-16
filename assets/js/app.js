@@ -3,7 +3,7 @@ let viewer;
 viewer = pannellum.viewer('panorama', {
     
     default: {
-        firstScene: "EX6B",
+        firstScene: "room1",
         autoLoad: true,
         sceneFadeDuration: 1000,
 
