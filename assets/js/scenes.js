@@ -27,7 +27,7 @@ const scenes = {
                 yaw: -262,
                 type: "scene",
                 // text: "Go to Room 2",
-                sceneId: "room2",
+                sceneId: "RR1",
             }
 
         ],
@@ -59,7 +59,7 @@ const scenes = {
                 yaw: -262,
                 type: "scene",
                 // text: "Go to Room 2",
-                sceneId: "room2",
+                sceneId: "RR1",
             }
             
         ],
@@ -93,13 +93,47 @@ const scenes = {
                 yaw: -262,
                 type: "scene",
                 // text: "Go to Room 2",
-                sceneId: "room2",
+                sceneId: "RR1",
             }
             
         ],
 
         pitch: 0,
         yaw: 120,
+    },
+
+    room1r: {
+        title: "Front",
+        panorama: "assets/panoramas/room1.jpg",
+        hotSpots: [
+            {
+                pitch: -31,
+                yaw: 25,
+                type: "scene",
+                // text: "Go to Room 2",
+                sceneId: "room2"
+            },
+            // LEFT ROOM
+            {
+                pitch: -25,
+                yaw: -63,
+                type: "scene",
+                // text: "Go to LR1",
+                sceneId: "LR1",
+            },
+             // RIGHT ROOM
+            {
+                pitch: -25,
+                yaw: -262,
+                type: "scene",
+                // text: "Go to Room 2",
+                sceneId: "RR1",
+            }
+            
+        ],
+
+        pitch: 0,
+        yaw: -60,
     },
 
     room2: {
@@ -119,6 +153,13 @@ const scenes = {
                 type: "scene",
                 // text: "Back to Room 1",
                 sceneId: "P9B"
+            },
+            {
+                pitch: -23,
+                yaw: 91,
+                type: "scene",
+                // text: "Back to Room 1",
+                sceneId: "EX6B"
             },
         ],
         pitch: 0,
@@ -143,10 +184,47 @@ const scenes = {
                 // text: "Back to Room 1",
                 sceneId: "P9B"
             },
+            {
+                pitch: -23,
+                yaw: 91,
+                type: "scene",
+                // text: "Back to Room 1",
+                sceneId: "EX6B"
+            },
         ],
         pitch: 0,
         yaw: 120,
     }, 
+
+    room2r: {
+        title: "Back",
+        panorama: "assets/panoramas/room2.jpg",
+        hotSpots: [
+            {
+                pitch: -20,
+                yaw: 200,
+                type: "scene",
+                // text: "Back to Room 1",
+                sceneId: "room1b"
+            },
+            {
+                pitch: -25,
+                yaw: 298,
+                type: "scene",
+                // text: "Back to Room 1",
+                sceneId: "P9B"
+            },
+            {
+                pitch: -23,
+                yaw: 91,
+                type: "scene",
+                // text: "Back to Room 1",
+                sceneId: "EX6B"
+            },
+        ],
+        pitch: 0,
+        yaw: -60,
+    },
 
  /// LEFT ROOM /// 
 
@@ -646,5 +724,358 @@ const scenes = {
         pitch: 0,
         yaw: 70,
     },
+
+ /// RIGHT ROOM /// 
+
+   RR1: {
+        title: "Paintings",
+        panorama: "assets/panoramas/RR1.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 102,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "room1r"
+            },
+            {
+                pitch: -25,
+                yaw: -105,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX1"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 190,
+    },
+
+    RR1B: {
+        title: "Paintings",
+        panorama: "assets/panoramas/RR1.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 102,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "room1r"
+            },
+            {
+                pitch: -25,
+                yaw: -105,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX1"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 80,
+    },
+    
+    EX1: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX1.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 195,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "RR1B"
+            },
+            {
+                pitch: -25,
+                yaw: -87,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX2"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 10,
+    },
+
+    EX1B: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX1.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 195,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "RR1B"
+            },
+            {
+                pitch: -25,
+                yaw: -87,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX2"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 70,
+    },
+
+    EX2: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX2.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 195,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX3"
+            },
+            {
+                pitch: -25,
+                yaw: 13,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX1B"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 190,
+    },
+
+    EX2B: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX2.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 195,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX3"
+            },
+            {
+                pitch: -25,
+                yaw: 13,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX1B"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 20,
+    },
+
+    EX3: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX3.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 205,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX4"
+            },
+            {
+                pitch: -25,
+                yaw: 13,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX2B"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 190,
+    },
+
+    EX3B: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX3.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 205,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX4"
+            },
+            {
+                pitch: -25,
+                yaw: 13,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX2B"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 30,
+    },
+
+     EX4: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX4.jpg",
+        hotSpots: [
+            {
+                pitch: -15,
+                yaw: 190,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX5"
+            },
+            {
+                pitch: -10,
+                yaw: 35,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX3B"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 210,
+    },
+
+    EX4B: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX4.jpg",
+        hotSpots: [
+            {
+                pitch: -15,
+                yaw: 190,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX5"
+            },
+            {
+                pitch: -10,
+                yaw: 35,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX3B"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 40,
+    },
+
+    EX5: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX5.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 215,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX4B"
+            },
+            {
+                pitch: -20,
+                yaw: -60,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX6"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 40,
+    },
+
+    EX5B: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX5.jpg",
+        hotSpots: [
+            {
+                pitch: -25,
+                yaw: 215,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX4B"
+            },
+            {
+                pitch: -20,
+                yaw: -60,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX6"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 140,
+    },
+
+    EX6: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX6.jpg",
+        hotSpots: [
+            {
+                pitch: -20,
+                yaw: 23,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX5B"
+            },
+            {
+                pitch: -20,
+                yaw: -163,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "room2r"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 190,
+    },
+
+    EX6B: {
+        title: "Paintings",
+        panorama: "assets/panoramas/EX6.jpg",
+        hotSpots: [
+            {
+                pitch: -20,
+                yaw: 23,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "EX5B"
+            },
+            {
+                pitch: -20,
+                yaw: -163,
+                type: "scene",
+                // text: "Go to P1",
+                sceneId: "room2r"
+            },
+         
+         
+        ],
+        pitch: 0,
+        yaw: 20,
+    },
+  
   
 };
