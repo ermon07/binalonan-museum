@@ -15,3 +15,46 @@ body{
     width:100%;
     height:100%; 
 }
+
+
+.museum-logo {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    padding: 10px 20px;
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    pointer-events: none;
+}
+
+.museum-logo img {
+    width: 120px;
+}
+
+
+
+.pnlm-title-box {
+    position: absolute !important;
+    top: 15px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+
+    background: rgba(20,20,20,.85) !important;
+    border: 1px solid rgba(255,255,255,.15);
+
+    padding: 12px 24px !important;
+    border-radius: 6px !important;
+
+    backdrop-filter: blur(8px);
+}
+
+.pnlm-panorama-info {
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px !important;
+    color: white !important;
+}
