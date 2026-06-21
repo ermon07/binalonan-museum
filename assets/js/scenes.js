@@ -102,7 +102,7 @@ const ex6Hotspots = [
 
 const scenes = {
 
-    room1:  scene("Front", "assets/panoramas/room1.jpg", frontHotspots),
+    room1:  scene("Front", "assets/panoramas/room1.jpg", frontHotspots, 25),
     room1b: scene("Front", "assets/panoramas/room1.jpg", frontHotspots, 190),
     room1l: scene("Front", "assets/panoramas/room1.jpg", frontHotspots, 120),
     room1r: scene("Front", "assets/panoramas/room1.jpg", frontHotspots, -60),
